@@ -9,6 +9,7 @@ function App() {
       <h1>Mi Página React</h1>
       <p>Contador: {contador}</p>
       <button onClick={() => setContador(contador + 1)}>Aumentar</button>
+      <h1>Hola desde Netlify con despliegue continuo</h1>
     </div>
   )
 }
